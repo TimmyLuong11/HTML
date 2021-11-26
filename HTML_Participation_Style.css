@@ -1,0 +1,75 @@
+﻿body
+{
+}
+
+div
+{
+    margin:25px;
+}
+
+nav
+{
+    background-color:crimson;
+    float: left;
+    height: 100vh;
+    padding: 15px;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a:hover
+{
+    background-color: #555;
+    cursor:pointer;
+}
+
+li a 
+{
+    background-color: white;
+    color: crimson;
+    text-decoration: none;
+    padding: 1em 1.5em;
+    display:block;
+    margin: 5px;
+    text-transform:uppercase;
+    border-radius: 20px;
+}
+
+#Information
+{
+    background-color:gray;
+    width: 50%;
+    border:5px solid black;
+    box-shadow: 0 4px 8px 0 rgba(200,0,0, 0.8);
+    margin: 25px;
+    padding: 15px;    
+}
+
+.Main
+{
+    float: left;
+}
+
+#Information:hover
+{
+    transition: transform 0.5s ease-in-out;
+    transform: rotate(720deg) scale(2);
+}
+
+/*
+li a:active
+{
+
+}
+
+li a:visited
+{
+    background-color:rebeccapurple;
+    color:red;
+}
+    */
